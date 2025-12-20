@@ -1,12 +1,18 @@
-import { useState } from 'react'
+
 import './App.css'
+import ReduxAuth from './concepts/ReduxAuth'
+import ReduxCounter from './concepts/ReduxCounter'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-    <></>
+    <>
+      <ReduxCounter />  
+      <ReduxAuth />
+    </>
   )
 }
 
 export default App
+3
